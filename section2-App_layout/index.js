@@ -3,6 +3,7 @@ class APP extends React.Component {
         return(
         <div>
             <Hello />
+            <NumPicker />
         </div>
         )
     }
