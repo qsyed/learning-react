@@ -6,6 +6,7 @@ class App extends React.Component{
              from="paul"
              num = {3}
              data = {[1,2,3,4,5]}
+             isfunny = {true}
             />
             <Hello to="Cher" from="sonny"/>
             </div>
