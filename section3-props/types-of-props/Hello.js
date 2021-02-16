@@ -7,10 +7,15 @@ class Hello extends React.Component {
       return(
           <div>
 
-       <p>Hello there {this.props.to} ! My name is {this.props.from} {bangs}</p>;
-       
+       <p>Hello there {this.props.to} ! My name is {this.props.from} {bangs}</p>
+        <img src ={this.props.img} />
+
+
+
+
        </div>
-      )
+      );
+
     }
   }
 
