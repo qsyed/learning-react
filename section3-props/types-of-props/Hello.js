@@ -1,5 +1,15 @@
 class Hello extends React.Component {
-    render() {
+      static defaultProps = {
+        from: 'Anynonymous',
+        bangs: 1
+
+      }
+  
+  
+  
+  render() {
+
+
         // console.log(this.props);
         let bangs = "!".repeat(this.props.num)
 
@@ -8,10 +18,7 @@ class Hello extends React.Component {
           <div>
 
        <p>Hello there {this.props.to} ! My name is {this.props.from} {bangs}</p>
-        <img src ={this.props.img} />
-
-
-
+        {/* <img src ={this.props.img} /> */}
 
        </div>
       );
