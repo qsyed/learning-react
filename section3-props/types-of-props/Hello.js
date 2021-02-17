@@ -1,7 +1,7 @@
 class Hello extends React.Component {
       static defaultProps = {
         from: 'Anynonymous',
-        bangs: 1
+        num: 1
 
       }
   
