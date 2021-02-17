@@ -1,11 +1,7 @@
-class APP extends React.Component {
-    render() {
+class Friend extends React.Component{
+    render(){
         return(
-        <div>
-            
-        </div>
+            <p>I am a Friend</p>
         )
     }
-  }
-
-ReactDOM.render(<APP />, document.getElementById('root'));
+}
