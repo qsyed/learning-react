@@ -14,3 +14,5 @@ console.log(`here is your: ${food_item}`);
 
 // remove item
 let remaining = remove(foods, food_item);
+
+console.log(`i'm sorry. we only have ${remaining} food items`)
