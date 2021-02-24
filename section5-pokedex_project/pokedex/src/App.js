@@ -7,7 +7,12 @@ class App extends Component{
         
         return (
         <div className="App">
-            <Pokecard />
+            <Pokecard 
+            id= {4} 
+            name= 'Charmander'
+            type= 'fire'
+            exp= {62}
+            />
           
         </div>
         );
