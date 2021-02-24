@@ -12,6 +12,7 @@ console.log(`I'd like some ${food_item}, please.`);
 console.log(`here is your: ${food_item}`);
 
 
+console.log('Can i have another');
 // remove item
 let remaining = remove(foods, food_item);
 
